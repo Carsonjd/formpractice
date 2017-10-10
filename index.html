@@ -1,11 +1,33 @@
 
 <!DOCTYPE html>
+<!--
+Email
+Password
+Github Username
+Radio buttons with the following options: Enterprise, Pro, Free
+A checkbox with the words "Remember Me" next to it.
+-->
+
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Form Practice</title>
   </head>
   <body>
-
+    <h1>
+      HTML Form Practice
+    </h1>
+    <fieldset>
+      <input type="email" name="email" value="E-mail"/>
+      <input type="password" name="password" value="Password"/>
+      <input type="text" name="githubUsername" value="GitHub Username"/>
+      <input id="ent" type="radio" name="thing" value="Enterprise"/>
+      <label for="ent">Enterprise</label>
+      <input id="pro" type="radio" name="thing" value="Pro"/>
+      <label for="pro">Pro</label>
+      <input id="free" type="radio" name="thing" value="Free"/>
+      <label for="free">Free</label>
+      <input type="checkbox" name="remember" value="remember">Rememeber Me
+    </fieldset>
   </body>
 </html>
